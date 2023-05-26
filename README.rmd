@@ -1,0 +1,40 @@
+---
+output: 
+  github_document:
+    toc: true
+    toc_depth: 2
+    df_print: kable
+    
+      
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# rugilelt/EnsembleAgeR
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of EnsembleAgeR is to allow users to easily calculate chronological age.
+
+
+## Installation
+
+```{r}
+devtools::install_github("rugilelt/EnsembleAgeR")
+devtools::install_github("MorganLevineLab/methylCIPHER")
+```
+
+
+
+
+
