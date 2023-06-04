@@ -21,6 +21,8 @@ svmPredictAge - trained using support vector machines.
 ``` r
 library(EnsembleAgeR)
 library(methylCIPHER)
+library(e1071)
+library(randomForest)
 
 lmPredictAge(dataset)
 rfPredictAge(dataset)
